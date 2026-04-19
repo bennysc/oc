@@ -1,0 +1,13 @@
+name = "Smokeleaf Industry"
+filename = "smokeleafindustry-0.4.7-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "982a394fa194079c517114d1bbbcafd86b4b0650"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5460512
+project-id = 998358

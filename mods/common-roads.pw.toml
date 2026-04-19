@@ -1,0 +1,13 @@
+name = "Common Roads"
+filename = "Common Roads (Forge 1.20.1) V1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "543d2e12e97e1118119c9c07037da112b4195399"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7586886
+project-id = 817304

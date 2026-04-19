@@ -1,0 +1,13 @@
+name = "Immersive Vehicles - Official Automobile Pack - [OAmP] - Best Cars Race and new cars Ultimate Drive"
+filename = "OAmP-1.20.1-V2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e8ad3ec68b0061fbb1aa55c174c098803b21e217"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7707978
+project-id = 1387229

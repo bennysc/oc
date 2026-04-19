@@ -1,0 +1,13 @@
+name = "Drink Beer, By the Buckets"
+filename = "DrinkBeer-1.1.2-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ee79059c8570317760c0a228c1ec41e5d7da91c7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7154844
+project-id = 807747

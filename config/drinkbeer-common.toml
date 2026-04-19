@@ -1,0 +1,7 @@
+
+[Gameplay]
+	#Whether or not we want alcohol to be a damage source.
+	enableAlcholDamage = true
+	#Whether or not we want drinking to have a debuff associated.
+	enableDrunkEffect = true
+
