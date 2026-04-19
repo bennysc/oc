@@ -1,0 +1,13 @@
+name = "[TaCZ] ChaosCraft's Apocalyptic Arsernal"
+filename = "apocalypticarsenal-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yiMHYcdp/versions/ElX8SaYH/apocalypticarsenal-1.0.1.jar"
+hash-format = "sha512"
+hash = "94fad82fd2b526d940814671432167a35e0e4b54c6b6e1d43e01b16c3d63161b0ec5a78ce70632877df64bb241d18e1078a4add43b0f295c21763bb77d8b535b"
+
+[update]
+[update.modrinth]
+mod-id = "yiMHYcdp"
+version = "ElX8SaYH"
