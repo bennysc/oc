@@ -4,3 +4,4 @@ packwiz-installer-bootstrap.jar
 .gitattributes
 .nojekyll
 .packwizignore
+.claude/
