@@ -519,7 +519,7 @@ metafile = true
 
 [[files]]
 file = "mods/transport-simulator-official-vehicle-set.pw.toml"
-hash = "e29a62a480f74e24022d04185c8a74488fcc78569492af838db9ebb702ca9391"
+hash = "fd5edfd59aadb46cf1316882ee7333503f4fd6ef71e375bb5df005c2a37bece9"
 metafile = true
 
 [[files]]
