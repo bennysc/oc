@@ -5,10 +5,6 @@ file = ".claude/settings.local.json"
 hash = "05c873398ffbf5bfad6fdb6611ac913280c984de2feb6c91b4fe81ade046fe2c"
 
 [[files]]
-file = ".nojekyll"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/Mekanism/client.toml"
 hash = "76132360abda99a40eccbead1433ccb688f5cca9b39cae1f568eb823947b576c"
 
@@ -539,7 +535,3 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "ba152821407352e48a29bdeb518d8938ad983c19eca91673d5eac6b513e715b9"
 metafile = true
-
-[[files]]
-file = "packwiz-installer-bootstrap.jar"
-hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"

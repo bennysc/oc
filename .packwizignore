@@ -1,0 +1,6 @@
+packwiz-installer-bootstrap.jar
+.git/
+.gitignore
+.gitattributes
+.nojekyll
+.packwizignore
