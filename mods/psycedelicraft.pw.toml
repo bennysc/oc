@@ -1,13 +1,13 @@
-name = "psycedelicraft"
+name = "Psychedelicraft"
 filename = "psychedelicraft-1.8.9+1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "47b590cd376f12a072742aa81d12860a2567c9ee"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/8u2zZjRq/versions/jlGza8op/psychedelicraft-1.8.9%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "2ce16689892c9beccdbebc67f5afbced1f7eedaa36f04cf994908b0fb63c2712b9ee764dc64537b0916abfc65cbcdbd44c24720661af78855ae7f56545eb9b4f"
 
 [update]
-[update.curseforge]
-file-id = 7454492
-project-id = 1428176
+[update.modrinth]
+mod-id = "8u2zZjRq"
+version = "jlGza8op"
