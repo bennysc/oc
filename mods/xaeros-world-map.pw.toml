@@ -1,6 +1,6 @@
 name = "Xaero's World Map"
 filename = "xaeroworldmap-forge-1.20.1-1.40.11.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

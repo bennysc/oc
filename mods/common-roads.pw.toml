@@ -3,6 +3,11 @@ filename = "Common Roads (Forge 1.20.1) V1.1.2.jar"
 side = "both"
 
 [download]
-url = "https://mediafilez.forgecdn.net/files/7586/886/Common%20Roads%20(Forge%201.20.1)%20V1.1.2.jar"
-hash-format = "sha256"
-hash = "3d49728f9dc9752223d2ec407fc753d5511dda946bc180407344cbce126abac3"
+hash-format = "sha1"
+hash = "543d2e12e97e1118119c9c07037da112b4195399"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7586886
+project-id = 817304

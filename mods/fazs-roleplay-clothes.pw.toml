@@ -3,6 +3,11 @@ filename = "FazRoleplayClothes-1.20.1-2.4.jar"
 side = "both"
 
 [download]
-url = "https://mediafilez.forgecdn.net/files/7518/655/FazRoleplayClothes-1.20.1-2.4.jar"
-hash-format = "sha256"
-hash = "5f619b978459a6f0f941fea175e46dfe43579ab2ad738f4f79305f5acd024c78"
+hash-format = "sha1"
+hash = "64ef59203d33efd35e7fb4ceb787d7543fb25ee0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7518655
+project-id = 1250026
