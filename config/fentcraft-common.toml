@@ -1,6 +1,0 @@
-
-#General settings
-[general]
-	#Should laced foodstuffs be distinguishable?
-	hideLacedFood = false
-

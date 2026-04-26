@@ -69,24 +69,12 @@ file = "config/casinocraft-common.toml"
 hash = "9b575a7d9b92575a1adb9aa9994011fff671c0ac3feaca729608d3574fd07ee2"
 
 [[files]]
-file = "config/cfm-client.toml"
-hash = "a43e7e083c330d9d59b3d1d0f1336b98060f5e4693e11e37d30055b42422e26f"
-
-[[files]]
-file = "config/cfm-common.toml"
-hash = "ece3561a9b9daf33eb3a4a4213c79fadc502ee9352138bba5783156243318668"
-
-[[files]]
 file = "config/cofh_core-client.toml"
 hash = "49fd3b3cb48eb63b75241c52361ef9c597e97aefa2ebace628a2062511a76757"
 
 [[files]]
 file = "config/cofh_core-common.toml"
 hash = "a9c6ee5c60e634126d5b5b462f088a943beb73f6a0afc62570c59499b98a9a0f"
-
-[[files]]
-file = "config/drinkbeer-common.toml"
-hash = "f3f0dccdb03e3fb2804787426aaa9245274acb002754544cc3fdba63ababbee4"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
@@ -99,10 +87,6 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 [[files]]
 file = "config/embeddium-options.json"
 hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
-
-[[files]]
-file = "config/fentcraft-common.toml"
-hash = "9038e083ab43bc40672b268d29e666157648ade660ea0245ac5b2d5fadc4853e"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -183,14 +167,6 @@ hash = "0e83e1dcf06932a88205f7c20e2f4995d8a7813ed843d76d5453f47fe40af49f"
 [[files]]
 file = "config/mtsconfigclient.json"
 hash = "b6ef28c65817180a3bc3a031ae529bc8f37cf9b5778ff619d5424bef1edb33a1"
-
-[[files]]
-file = "config/nirvana-client.toml"
-hash = "e608717b31608bc4eac4191a6b93ef23ac86db0fad66a2c6f282507dc6806b12"
-
-[[files]]
-file = "config/nirvana-common.toml"
-hash = "1443e6944eb94f9065a997f19fd2284ef54ea4c940165602ddb46d8e7dff5dca"
 
 [[files]]
 file = "config/pamhc2crops.toml"
@@ -323,6 +299,11 @@ hash = "2434c70565f9e021d168bc6952759d1de79b4eb14856c5ca9ebe5d761fcb4efd"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
+metafile = true
+
+[[files]]
 file = "mods/canary.pw.toml"
 hash = "e5df83a3dd1686106741d1d61da5869aed0537c2931a40234e1b3bd2d09e1971"
 metafile = true
@@ -339,17 +320,17 @@ metafile = true
 
 [[files]]
 file = "mods/common-roads.pw.toml"
-hash = "800fd7edd86044b7539e478c306bac627385492eb8f034aded290f7d034a4675"
+hash = "c6ca7efd155689af35fea091cc2e461cf96e3efd9b2d2ba0c0597151656e528c"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+hash = "a74b2d65c286896335b454f61f18be630d0f13767626ebb118584907d1d37112"
 metafile = true
 
 [[files]]
 file = "mods/fazs-roleplay-clothes.pw.toml"
-hash = "2d14571e36cfea3d86e597ad53fe673448ff53683bcc1143ed6a568630332cb3"
+hash = "37cd222f794c5bf15f7d8549cba363665bf762b2cf378ad6d3a64dfe97700195"
 metafile = true
 
 [[files]]
@@ -359,7 +340,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "62ef7e92478035b77e996189984e4749b2d876ed0a389977a2670a28f105bfd2"
+hash = "2a2f2168bf03bfa3034ad9583588676c5d66b6f7c767df9fe259ab55350792d2"
 metafile = true
 
 [[files]]
@@ -378,8 +359,18 @@ hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
 metafile = true
 
 [[files]]
+file = "mods/immersive-vehicles-official-automobile-pack.pw.toml"
+hash = "b5163c3ff5fdb0096d902c686c0e43a060e3c69dc8601ac6a5a775ecfaa05e31"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
-hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
+hash = "a6c871c10a7ba6894b71b23e3efe52fab75d6a17c3170365f218327f42c998cd"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "1678327ac50408273c1828b631929128d3fdfd54cda7b2e823ce9352495a68ff"
 metafile = true
 
 [[files]]
@@ -429,7 +420,7 @@ metafile = true
 
 [[files]]
 file = "mods/psycedelicraft.pw.toml"
-hash = "ccdce16f00b288b750dd96f62d1e11ee761afe2e06ceff845082c64b93081cb3"
+hash = "7029af1a6827f452d80a0d6d65038c4d2d11cf41da953e748d922d1237a7ac6b"
 metafile = true
 
 [[files]]
@@ -439,7 +430,7 @@ metafile = true
 
 [[files]]
 file = "mods/sinytra-connector.pw.toml"
-hash = "576f8242f3de93161c590067fda3f3e9e922c0aea8fb5fcfac5adcef0d9d4a34"
+hash = "68a935746aad424891dcb36fa705cdafd652ea1170ecb8144b1db0c87e30297b"
 metafile = true
 
 [[files]]
@@ -464,12 +455,12 @@ metafile = true
 
 [[files]]
 file = "mods/tacz-chaoscrafts-apocalyptic-arsernal.pw.toml"
-hash = "c4cb4778564bc61b59d8da2eb7b61d753d6158125560db6c9312dda90e5eda34"
+hash = "6f438ef132f7ea30b786a004659e2275a58084d2b8f76bba0307af9b366886e7"
 metafile = true
 
 [[files]]
 file = "mods/tacz-lesraisins-tactical-equipements.pw.toml"
-hash = "d97655330510c21898fe03027bd9841e34af2c6bc89372f22a6b23e71068b5ab"
+hash = "d4f1d19a9c855267a006071277d2fa44a5909dfda6f4b823bf8c91299dfd1381"
 metafile = true
 
 [[files]]
@@ -484,7 +475,7 @@ metafile = true
 
 [[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
-hash = "bdf09ff8a5f8f1acbe5bff48e7cfe96f47f1643b9761abb3fce9f07348a7eb0c"
+hash = "891ec8405ce974de61df5442e5cac4a83e13f422e2b08dd42f405568492d9006"
 metafile = true
 
 [[files]]
@@ -493,11 +484,16 @@ hash = "edfafd11282b46cca84cce70807e85f8b11e918ead6a1ef7aa7d9e216d98ece3"
 metafile = true
 
 [[files]]
+file = "mods/transport-simulator-official-vehicle-set.pw.toml"
+hash = "fd5edfd59aadb46cf1316882ee7333503f4fd6ef71e375bb5df005c2a37bece9"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "d55d5e9b2ceb866a5a3f7342478d4437230f1b9f177ea23360f1ab7ced0da95b"
+hash = "70ddc4a1689063f73694e73c3e310f9644ea25609ba2f781158dec1702996fd2"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "53d56895bd15af3b71bc1337d4449584a5abdfd4eaa653fae428ca81fcf3fee7"
+hash = "ba152821407352e48a29bdeb518d8938ad983c19eca91673d5eac6b513e715b9"
 metafile = true

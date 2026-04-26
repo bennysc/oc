@@ -3,11 +3,11 @@ filename = "apocalypticarsenal-1.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "40f0651e7da145857ade6aca25051a7058c4dfc7"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/yiMHYcdp/versions/ElX8SaYH/apocalypticarsenal-1.0.1.jar"
+hash-format = "sha512"
+hash = "94fad82fd2b526d940814671432167a35e0e4b54c6b6e1d43e01b16c3d63161b0ec5a78ce70632877df64bb241d18e1078a4add43b0f295c21763bb77d8b535b"
 
 [update]
-[update.curseforge]
-file-id = 6916053
-project-id = 1326391
+[update.modrinth]
+mod-id = "yiMHYcdp"
+version = "ElX8SaYH"
