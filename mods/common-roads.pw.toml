@@ -3,11 +3,11 @@ filename = "Common Roads (Neoforge 1.21.1) V1.2.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3a5dfa70083540472eb90339f9215e03cbf84667"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/okJo8dgi/versions/RilqbIIu/Common%20Roads%20%28Neoforge%201.21.1%29%20V1.2.1.jar"
+hash-format = "sha512"
+hash = "8409b205b5d58ca1cde3e4c084a032575fb06ed38fbb6e91207eeaf75db6aefdc9c5a395a494d7ab47cc2ca2247bced2a6db6c61102b0c31d41b39caafdadb9e"
 
 [update]
-[update.curseforge]
-file-id = 7767761
-project-id = 817304
+[update.modrinth]
+mod-id = "okJo8dgi"
+version = "RilqbIIu"

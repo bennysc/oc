@@ -259,7 +259,7 @@ metafile = true
 
 [[files]]
 file = "mods/common-roads.pw.toml"
-hash = "0d87e54b9a84554eaf0d3fc14566b210359e107e4137161fd2b55ba3af9b872a"
+hash = "f2777daa5a2d74bbe1180d80b17a7cfbd9cecc825a07da5a615456d21145a0fe"
 metafile = true
 
 [[files]]
@@ -279,7 +279,7 @@ metafile = true
 
 [[files]]
 file = "mods/fazs-roleplay-clothes.pw.toml"
-hash = "eaebcfc0cb6d8c86fe752a53aab02655aa7031a8ff6b46f936ffb24ce4fdb54c"
+hash = "08ebc65199bebf2747bd51ef56dd890d7e12e3e86188231d9f47c5e1e9fb2da2"
 metafile = true
 
 [[files]]
