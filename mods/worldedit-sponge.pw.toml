@@ -1,0 +1,8 @@
+name = "WorldEdit (Sponge)"
+filename = "worldedit-sponge-7.3.8+6939-7d32b45.jar"
+side = "server"
+
+[download]
+url = "https://ore.spongepowered.org/EngineHub/WorldEdit/versions/7.3.8%2B6939-7d32b45/download"
+hash-format = "sha512"
+hash = "3518cfbea6499cc9fc0ef3433eb4e0e98d2ccfe9472566b8effc91196e282248fe201242bf9f0147348afecee58498f78d271b47e5016cb4602774600779ea63"

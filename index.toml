@@ -229,6 +229,10 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "infra/egg-spongeneo-packwiz.json"
+hash = "2387efbaad8b5b20bf8b786f392c0b9730245d1cf3818b3a5718fad567e8edae"
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "afa4f499d946514c51f41f8f2202ac0946052b012570a210ebb31f0d0d627672"
 metafile = true
@@ -264,6 +268,11 @@ hash = "af4dc4828902eae1784568632a749fe9a442943f1570ac0ba3ea75e79934be41"
 metafile = true
 
 [[files]]
+file = "mods/customnpcs-unofficial.pw.toml"
+hash = "cac782b6e0e7d4940c3b9b47ff68709e04c6665137a1aed51e43a4bd0467b1da"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "f3ae4c6cea3288a0c0d1c6f5c1a18992f45c38559908e84c774c9f49ad91b74e"
 metafile = true
@@ -279,8 +288,23 @@ hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
 metafile = true
 
 [[files]]
+file = "mods/foodvariations.pw.toml"
+hash = "8617dd55f914186aa922d6c6c87bc4aad55cbf50a65f692580a9c6b94efd2797"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "aaa5d15a2ebf6ae368561fc49d7994ffa5084138942095cb4ded4c8921189437"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "54b6ce5c7ccf54db4cf8888e1c7e56b2d840cddc0e3e3fd15869a03d5c76c2ef"
 metafile = true
 
 [[files]]
@@ -301,6 +325,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "3c13beafeb69d23d2a43805cfa3d79b7e458cfb8f9ce603075b84d95da630d4b"
+metafile = true
+
+[[files]]
+file = "mods/luckperms-sponge.pw.toml"
+hash = "feec080c1d2667f464a9d0bd115239a2174cbc3e9794c5f8a043de03995b0b8f"
 metafile = true
 
 [[files]]
@@ -326,6 +355,11 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "c05fa3fa9bc5700104d928b616b15e70d441085dd060c6501122747dc3805de1"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "b68a0b80d7dd64e2c5ac489aa67cf3c343630c9e2deec5d09522d6f7363b2b35"
 metafile = true
 
 [[files]]
@@ -376,6 +410,16 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "0f67fdb37d6ef354f36a1da5805b5c083be21e7367868ec81d29426d94749609"
+metafile = true
+
+[[files]]
+file = "mods/totaleconomy.pw.toml"
+hash = "0b1057845f38345be57026845419df2a909b5a3d5c8ce14a754338c0570c8234"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-sponge.pw.toml"
+hash = "14d0a3d568f6b1038d01e064e3a57bb5a4be27ed3b0aecbf846c353f82a7f1e0"
 metafile = true
 
 [[files]]

@@ -1,0 +1,8 @@
+name = "Total Economy"
+filename = "TotalEconomy-0.13.2.jar"
+side = "server"
+
+[download]
+url = "https://ore.spongepowered.org/Erigitic/Total-Economy/versions/0.13.2/download"
+hash-format = "sha512"
+hash = "552af77ba6ecf7b6d6d30f5a21cb66c43b4e1aefcc9c553ad8c7b392d9cb6ff2a8478973cbe63011f2d7098d1018d166c7a79d47d1f1ed7c74de212e3b2a16ec"
