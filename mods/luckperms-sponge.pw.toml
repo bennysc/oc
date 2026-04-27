@@ -1,0 +1,8 @@
+name = "LuckPerms (Sponge)"
+filename = "LuckPerms-Sponge-5.4.152.jar"
+side = "server"
+
+[download]
+url = "https://ore.spongepowered.org/Luck/LuckPerms/versions/5.4.152/download"
+hash-format = "sha512"
+hash = "eddf83fecd3476e85b062bcd0ba8ea2bfc840748dceaa3c4dd484806ce42a3092b1333587cd4fc87656bea7fb0ba8b07241ea3f8d4e51a9d71bf2f4ef6996464"
