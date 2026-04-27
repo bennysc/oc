@@ -1,6 +1,6 @@
 name = "BuildPaste - Instant Structures"
 filename = "BuildPasteMod-1.20.1v1.11.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/9kNC5Mrh/versions/vIsKcY7V/BuildPasteMod-1.20.1v1.11.jar"
