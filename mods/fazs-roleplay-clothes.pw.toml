@@ -3,11 +3,11 @@ filename = "FazRoleplayClothes-Neo1.21.1-1.6.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d82a48b3e830611a4bd9e006193f1bc30f19cc8b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/zjMFbe7B/versions/urYgvUDy/FazRoleplayClothes-Neo1.21.1-1.6.1.jar"
+hash-format = "sha512"
+hash = "0b3bc3638e958b93a48fd9bcb76d45d6ba69f751ce5fad293d343ef00ce697f8f8aa13aa9922ca8ee0265aec84e74fa9b74fcd4a11423a947e5726ea1a546b4b"
 
 [update]
-[update.curseforge]
-file-id = 6744704
-project-id = 1250026
+[update.modrinth]
+mod-id = "zjMFbe7B"
+version = "urYgvUDy"
