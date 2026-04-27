@@ -1,0 +1,84 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL EGGS",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2026-04-26T00:00:00+00:00",
+    "name": "NeoForge + SpongeNeo (Packwiz)",
+    "author": "benjamincunningham96@gmail.com",
+    "description": "Boots a NeoForge server with SpongeNeo for plugin support, syncing the modpack from a packwiz manifest on every start. Designed for the [DBAH] Organized Crime pack at https://bennysc.github.io/oc/pack.toml.",
+    "features": [
+        "eula"
+    ],
+    "docker_images": {
+        "Java 21": "ghcr.io/parkervcp/yolks:java_21"
+    },
+    "file_denylist": [],
+    "startup": "sleep 1; java -jar packwiz-installer-bootstrap.jar -g -s server \"{{PACKWIZ_URL}}\"; java -Xms128M -XX:MaxRAMPercentage=95.0 --add-modules=jdk.incubator.vector -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -Dterminal.jline=false -Dterminal.ansi=true $( [[ ! -f unix_args.txt ]] && printf %s \"-jar mc-wrapper.jar\" || printf %s \"@unix_args.txt\" ) --nogui",
+    "config": {
+        "files": "{\r\n    \"server.properties\": {\r\n        \"parser\": \"properties\",\r\n        \"find\": {\r\n            \"server-ip\": \"0.0.0.0\",\r\n            \"server-port\": \"{{server.build.default.port}}\",\r\n            \"enable-query\": \"true\",\r\n            \"query.port\": \"{{server.build.default.port}}\"\r\n        }\r\n    }\r\n}",
+        "startup": "{\r\n    \"done\": \")! For help, type \"\r\n}",
+        "logs": "{}",
+        "stop": "stop"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#!/bin/bash\nset -euo pipefail\n\napt update -qq\napt install -y -qq curl jq ca-certificates\n\nmkdir -p /mnt/server\ncd /mnt/server\n\n# ---------------------------------------------------------------------------\n# 1. NeoForge\n#    NEOFORGE_VERSION must be the full build number (e.g. 21.1.211).\n#    SpongeNeo pins to a specific NeoForge build, so do not bump this without\n#    bumping SPONGENEO_VERSION to a build that targets the same NeoForge.\n# ---------------------------------------------------------------------------\nNEOFORGE_INSTALLER_URL=\"https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/neoforge-${NEOFORGE_VERSION}-installer.jar\"\necho \"[install] downloading NeoForge ${NEOFORGE_VERSION}\"\ncurl -sSL --fail -o /tmp/neoforge-installer.jar \"$NEOFORGE_INSTALLER_URL\"\necho \"[install] running NeoForge --install-server\"\njava -jar /tmp/neoforge-installer.jar --install-server /mnt/server\nrm -f /tmp/neoforge-installer.jar run.sh run.bat user_jvm_args.txt\n\nif [ ! -f /mnt/server/unix_args.txt ]; then\n    UNIX_ARGS=$(find /mnt/server/libraries -name 'unix_args.txt' | head -n1 || true)\n    if [ -n \"$UNIX_ARGS\" ]; then\n        cp \"$UNIX_ARGS\" /mnt/server/unix_args.txt\n    fi\nfi\n\n# ---------------------------------------------------------------------------\n# 2. SpongeNeo\n#    SPONGENEO_VERSION is the middle of the jar name, e.g. 1.21.1-21.1.211-12.0.3.\n#    Maven path: org/spongepowered/spongeneo/<version>/spongeneo-<version>-universal.jar\n# ---------------------------------------------------------------------------\nmkdir -p /mnt/server/mods /mnt/server/plugins\nSPONGE_JAR=\"spongeneo-${SPONGENEO_VERSION}-universal.jar\"\nSPONGE_URL=\"https://repo.spongepowered.org/repository/maven-releases/org/spongepowered/spongeneo/${SPONGENEO_VERSION}/${SPONGE_JAR}\"\necho \"[install] downloading SpongeNeo ${SPONGENEO_VERSION}\"\ncurl -sSL --fail -o \"/mnt/server/mods/${SPONGE_JAR}\" \"$SPONGE_URL\"\n\n# ---------------------------------------------------------------------------\n# 3. packwiz-installer-bootstrap (latest release)\n# ---------------------------------------------------------------------------\necho \"[install] downloading packwiz-installer-bootstrap\"\nBOOT_URL=$(curl -fsSL https://api.github.com/repos/packwiz/packwiz-installer-bootstrap/releases/latest \\\n    | jq -r '.assets[] | select(.name | endswith(\".jar\")) | .browser_download_url' | head -n1)\ncurl -sSL --fail -o /mnt/server/packwiz-installer-bootstrap.jar \"$BOOT_URL\"\n\n# ---------------------------------------------------------------------------\n# 4. EULA\n# ---------------------------------------------------------------------------\nif [ \"${EULA:-false}\" = \"true\" ]; then\n    echo 'eula=true' > /mnt/server/eula.txt\nfi\n\necho \"[install] done. NeoForge + SpongeNeo + packwiz bootstrap staged.\"\n",
+            "container": "ghcr.io/pterodactyl/installers:debian",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Minecraft Version",
+            "description": "Minecraft version. Locked to 1.21.1 for the current SpongeNeo LTS API 12 line.",
+            "env_variable": "MC_VERSION",
+            "default_value": "1.21.1",
+            "user_viewable": true,
+            "user_editable": false,
+            "rules": "required|string|max:9",
+            "field_type": "text"
+        },
+        {
+            "name": "NeoForge Version",
+            "description": "NeoForge build (e.g. 21.1.211). MUST match the NeoForge build that the chosen SpongeNeo build targets — see https://dl.spongepowered.org/spongeneo for the pairing.",
+            "env_variable": "NEOFORGE_VERSION",
+            "default_value": "21.1.211",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|regex:/^[0-9]+\\.[0-9]+\\.[0-9]+$/",
+            "field_type": "text"
+        },
+        {
+            "name": "SpongeNeo Version",
+            "description": "Middle of the SpongeNeo jar filename, e.g. 1.21.1-21.1.211-12.0.3 for spongeneo-1.21.1-21.1.211-12.0.3-universal.jar. Picked from https://dl.spongepowered.org/spongeneo.",
+            "env_variable": "SPONGENEO_VERSION",
+            "default_value": "1.21.1-21.1.211-12.0.3",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string",
+            "field_type": "text"
+        },
+        {
+            "name": "Packwiz Manifest URL",
+            "description": "URL of the packwiz pack.toml. Pulled on every server start so mod updates ship without a reinstall.",
+            "env_variable": "PACKWIZ_URL",
+            "default_value": "https://bennysc.github.io/oc/pack.toml",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|url",
+            "field_type": "text"
+        },
+        {
+            "name": "Accept EULA",
+            "description": "Set to true to write eula=true on install. By accepting you agree to the Minecraft EULA at https://aka.ms/MinecraftEULA.",
+            "env_variable": "EULA",
+            "default_value": "false",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|in:true,false",
+            "field_type": "text"
+        }
+    ]
+}
