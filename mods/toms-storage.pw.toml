@@ -1,13 +1,13 @@
 name = "Tom's Simple Storage Mod"
-filename = "toms_storage-1.20-1.7.1.jar"
+filename = "toms_storage-1.21-2.3.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8b70aed9e35ad78fdc2f9fcb94a29dc64ba8d757"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/XZNI4Cpy/versions/x8jcBWWG/toms_storage-1.21-2.3.2.jar"
+hash-format = "sha512"
+hash = "2760e5a25416b949a3396cfe61f4d18a323e692118c7a5e9117388f5b050841962fe5b9a09071d2ffdb0e0baa3014c1082f2ae843020b95f3a02ac47e495c6bd"
 
 [update]
-[update.curseforge]
-file-id = 6418133
-project-id = 378609
+[update.modrinth]
+mod-id = "XZNI4Cpy"
+version = "x8jcBWWG"
