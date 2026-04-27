@@ -328,11 +328,6 @@ hash = "3c13beafeb69d23d2a43805cfa3d79b7e458cfb8f9ce603075b84d95da630d4b"
 metafile = true
 
 [[files]]
-file = "mods/luckperms-sponge.pw.toml"
-hash = "feec080c1d2667f464a9d0bd115239a2174cbc3e9794c5f8a043de03995b0b8f"
-metafile = true
-
-[[files]]
 file = "mods/mekanism-generators.pw.toml"
 hash = "d270c535152d5388823cbd3913a0f14b088ef14f91f9eec61444f1102d19bdc1"
 metafile = true
@@ -378,6 +373,21 @@ hash = "d48697a0d75267fe97428fa6b8442ec419846d7396e2dc9b4dd2c90e13f17daa"
 metafile = true
 
 [[files]]
+file = "mods/plugins/luckperms-sponge.pw.toml"
+hash = "feec080c1d2667f464a9d0bd115239a2174cbc3e9794c5f8a043de03995b0b8f"
+metafile = true
+
+[[files]]
+file = "mods/plugins/totaleconomy.pw.toml"
+hash = "0b1057845f38345be57026845419df2a909b5a3d5c8ce14a754338c0570c8234"
+metafile = true
+
+[[files]]
+file = "mods/plugins/worldedit-sponge.pw.toml"
+hash = "14d0a3d568f6b1038d01e064e3a57bb5a4be27ed3b0aecbf846c353f82a7f1e0"
+metafile = true
+
+[[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "208de52370a896983814bd3f69ed0e2b46ca52d99603656562f3890f96d151da"
 metafile = true
@@ -410,16 +420,6 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "0f67fdb37d6ef354f36a1da5805b5c083be21e7367868ec81d29426d94749609"
-metafile = true
-
-[[files]]
-file = "mods/totaleconomy.pw.toml"
-hash = "0b1057845f38345be57026845419df2a909b5a3d5c8ce14a754338c0570c8234"
-metafile = true
-
-[[files]]
-file = "mods/worldedit-sponge.pw.toml"
-hash = "14d0a3d568f6b1038d01e064e3a57bb5a4be27ed3b0aecbf846c353f82a7f1e0"
 metafile = true
 
 [[files]]
