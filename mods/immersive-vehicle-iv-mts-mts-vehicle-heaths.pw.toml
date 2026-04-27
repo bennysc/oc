@@ -1,0 +1,8 @@
+name = "[Immersive Vehicle/IV/MTS] MTS Vehicle Heaths"
+filename = "MTSVehiclesHealths-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/7763/738/MTSVehiclesHealths-1.0.1.jar"
+hash-format = "sha256"
+hash = "a993353111389012a8d42c8ea64a7f128d3a3d29b1f96ae6e5a2bf17bcffd61b"

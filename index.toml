@@ -304,6 +304,11 @@ hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
+file = "mods/buildpaste.pw.toml"
+hash = "5510df506368328a7f1594b4e160fe6510262d4ec36e099bff4b1f150d979a34"
+metafile = true
+
+[[files]]
 file = "mods/canary.pw.toml"
 hash = "e5df83a3dd1686106741d1d61da5869aed0537c2931a40234e1b3bd2d09e1971"
 metafile = true
@@ -321,6 +326,11 @@ metafile = true
 [[files]]
 file = "mods/common-roads.pw.toml"
 hash = "c6ca7efd155689af35fea091cc2e461cf96e3efd9b2d2ba0c0597151656e528c"
+metafile = true
+
+[[files]]
+file = "mods/configured.pw.toml"
+hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
 metafile = true
 
 [[files]]
@@ -359,6 +369,11 @@ hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
 metafile = true
 
 [[files]]
+file = "mods/immersive-vehicle-iv-mts-mts-vehicle-heaths.pw.toml"
+hash = "293cc79ef7d0854c9334e4d1f369404ac52797b8bb070065aaa1f5ca4f2e73ad"
+metafile = true
+
+[[files]]
 file = "mods/immersive-vehicles-official-automobile-pack.pw.toml"
 hash = "b5163c3ff5fdb0096d902c686c0e43a060e3c69dc8601ac6a5a775ecfaa05e31"
 metafile = true
@@ -379,8 +394,18 @@ hash = "742c1968468eadf99efa73b0d2f3b74390c5d7b15d33ed5c962cb33d6d415e37"
 metafile = true
 
 [[files]]
+file = "mods/litematica.pw.toml"
+hash = "8a786b5c9b67df34894f944708f722ef3ade67ea3c3aa4997144314c26f847f7"
+metafile = true
+
+[[files]]
 file = "mods/lucky77.pw.toml"
 hash = "c4b3d0a8c5879008f6a39882859bdd862a5f1b27a31e61930e7a44e719138d3a"
+metafile = true
+
+[[files]]
+file = "mods/malilib.pw.toml"
+hash = "6bfb82960a27af2c360036e01c0131c3ad9c778b4ba5e3df51bafe4f175317db"
 metafile = true
 
 [[files]]
@@ -416,6 +441,11 @@ metafile = true
 [[files]]
 file = "mods/pams-harvestcraft-2-food-core.pw.toml"
 hash = "82da9f309f7f4a70cba7885bc52f0723137bb9925a62e545db07b95be65870a0"
+metafile = true
+
+[[files]]
+file = "mods/pams-harvestcraft-2-trees.pw.toml"
+hash = "e586ed7ece00777429172363892eb64d2dee76b41f5c5b84d0ac8e2bdcee7438"
 metafile = true
 
 [[files]]
@@ -486,6 +516,11 @@ metafile = true
 [[files]]
 file = "mods/transport-simulator-official-vehicle-set.pw.toml"
 hash = "fd5edfd59aadb46cf1316882ee7333503f4fd6ef71e375bb5df005c2a37bece9"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
 metafile = true
 
 [[files]]
