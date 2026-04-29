@@ -3,11 +3,6 @@ filename = "letsdo-farm_and_charm-neoforge-1.1.22.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/HJetCzWo/versions/ptvlHtBI/letsdo-farm_and_charm-neoforge-1.1.22.jar"
 hash-format = "sha1"
 hash = "4f51276dc4faf318486fa6e4bca27c7f8508c8e9"
-mode = "metadata:modrinth"
-
-[update]
-[update.modrinth]
-mod-id = "HJetCzWo"
-version = "ptvlHtBI"

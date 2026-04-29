@@ -3,11 +3,6 @@ filename = "energizedpower-1.21.1-2.15.18-neoforge.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/6pku8gW1/versions/qZDlZ1vE/energizedpower-1.21.1-2.15.18-neoforge.jar"
 hash-format = "sha1"
 hash = "199da293a444f4ff8e3b3edc8010304180a114ca"
-mode = "metadata:modrinth"
-
-[update]
-[update.modrinth]
-mod-id = "6pku8gW1"
-version = "qZDlZ1vE"

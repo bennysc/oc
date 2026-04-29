@@ -429,32 +429,32 @@ metafile = true
 
 [[files]]
 file = "mods/energized-power.pw.toml"
-hash = "f82932a9e1fe3b63c1030f7c27e86bca7f7ff5eb3ad606da17d55196e5f81d62"
+hash = "6e444a8faf96fc87db4ea811811b4903b2476a1326314f442bb0a3c537a37057"
 metafile = true
 
 [[files]]
 file = "mods/industrial-foregoing.pw.toml"
-hash = "55bc560dcd0597015d82b46b7a20c00a14cf0ba489cab598e93a5431a6343739"
+hash = "45ee6e959d5c980276544ad50679c69a6fe9a28e6a94d8a02d88777f254af875"
 metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "c7e87fe774ffbef627ec1c7fbc7e784f02b3a15e6f307f5aeaf06ad14dc6b7f7"
+hash = "dec3f6e9f0119d25fa9e86c205ec29b8d1103744b3ce1f0f196b1bbe146fe049"
 metafile = true
 
 [[files]]
 file = "mods/lets-do-vinery.pw.toml"
-hash = "e8217e0753193ab4d6bb0b8f1a055a9c77b4c8d1d107dcca944f36de6a6f3c3f"
+hash = "e190a363660349d32d9e3faeb39733892d6e40287b6edcbf4996ba633a679051"
 metafile = true
 
 [[files]]
 file = "mods/lets-do-brewery.pw.toml"
-hash = "48ea72368572b3acbcda2e0029aef9857b9b3cc2dd832a0c96bf09406ab99009"
+hash = "7aba20615a32b489429c32685ae8fafc4109ce49409beade8590be4d71dd8ddf"
 metafile = true
 
 [[files]]
 file = "mods/lets-do-farm-charm.pw.toml"
-hash = "be08dec5e841504c9fb83b2cad13a2c934224937c7549f3025496cec469f9954"
+hash = "317f1028474ac08827a62830a1b5d82569a6972278d919d3bdc1b7790d683341"
 metafile = true
 
 [[files]]
