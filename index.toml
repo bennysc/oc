@@ -456,8 +456,3 @@ metafile = true
 file = "mods/lets-do-farm-charm.pw.toml"
 hash = "317f1028474ac08827a62830a1b5d82569a6972278d919d3bdc1b7790d683341"
 metafile = true
-
-[[files]]
-file = "mods/dynamic-block-regen.pw.toml"
-hash = "aca720082327145071c223ecf7a030367caa615ff287e3c3d4c40c378db2e037"
-metafile = true
