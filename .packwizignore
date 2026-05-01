@@ -5,3 +5,7 @@ packwiz-installer-bootstrap.jar
 .nojekyll
 .packwizignore
 .claude/
+.github/
+AGENTS.md
+CLAUDE.md
+scripts/

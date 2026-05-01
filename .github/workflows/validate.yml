@@ -1,0 +1,40 @@
+name: validate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: validate pack
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install packwiz
+        run: |
+          set -euo pipefail
+          go install github.com/packwiz/packwiz@latest
+          echo "$HOME/go/bin" >> "$GITHUB_PATH"
+
+      - name: packwiz refresh round-trip (hashes in sync)
+        run: |
+          set -euo pipefail
+          packwiz refresh
+          if ! git diff --exit-code -- pack.toml index.toml; then
+            echo "::error::pack.toml or index.toml is out of sync. Run 'packwiz refresh' locally and commit the result."
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Structural checks (scripts/validate-pack.py)
+        run: python scripts/validate-pack.py
