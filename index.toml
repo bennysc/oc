@@ -278,6 +278,11 @@ hash = "f3ae4c6cea3288a0c0d1c6f5c1a18992f45c38559908e84c774c9f49ad91b74e"
 metafile = true
 
 [[files]]
+file = "mods/energized-power.pw.toml"
+hash = "6e444a8faf96fc87db4ea811811b4903b2476a1326314f442bb0a3c537a37057"
+metafile = true
+
+[[files]]
 file = "mods/fazs-roleplay-clothes.pw.toml"
 hash = "08ebc65199bebf2747bd51ef56dd890d7e12e3e86188231d9f47c5e1e9fb2da2"
 metafile = true
@@ -318,6 +323,11 @@ hash = "5bc0953394cdd5a21d9f9c5a89dfa62ff84e43fc6a19fc5afdb7834e152386b9"
 metafile = true
 
 [[files]]
+file = "mods/industrial-foregoing.pw.toml"
+hash = "45ee6e959d5c980276544ad50679c69a6fe9a28e6a94d8a02d88777f254af875"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "61a8c2607cac4c150c6f85a83031ca0cdc21cec2fed09b2e58fb9b646e6cab13"
 metafile = true
@@ -325,6 +335,21 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "3c13beafeb69d23d2a43805cfa3d79b7e458cfb8f9ce603075b84d95da630d4b"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-brewery.pw.toml"
+hash = "7aba20615a32b489429c32685ae8fafc4109ce49409beade8590be4d71dd8ddf"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-farm-charm.pw.toml"
+hash = "317f1028474ac08827a62830a1b5d82569a6972278d919d3bdc1b7790d683341"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-vinery.pw.toml"
+hash = "e190a363660349d32d9e3faeb39733892d6e40287b6edcbf4996ba633a679051"
 metafile = true
 
 [[files]]
@@ -413,6 +438,11 @@ hash = "c0510fe7f574dee65b557f9650cdcfdf8d3ef0babaf7506a938a5b52e073e961"
 metafile = true
 
 [[files]]
+file = "mods/titanium.pw.toml"
+hash = "dec3f6e9f0119d25fa9e86c205ec29b8d1103744b3ce1f0f196b1bbe146fe049"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "0f67fdb37d6ef354f36a1da5805b5c083be21e7367868ec81d29426d94749609"
 metafile = true
@@ -425,34 +455,4 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "dfdd7c3c4f1c0b40ee6fc5fbd9df1c5554f184d895be1f72d9ef24d5121754cc"
-metafile = true
-
-[[files]]
-file = "mods/energized-power.pw.toml"
-hash = "6e444a8faf96fc87db4ea811811b4903b2476a1326314f442bb0a3c537a37057"
-metafile = true
-
-[[files]]
-file = "mods/industrial-foregoing.pw.toml"
-hash = "45ee6e959d5c980276544ad50679c69a6fe9a28e6a94d8a02d88777f254af875"
-metafile = true
-
-[[files]]
-file = "mods/titanium.pw.toml"
-hash = "dec3f6e9f0119d25fa9e86c205ec29b8d1103744b3ce1f0f196b1bbe146fe049"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-vinery.pw.toml"
-hash = "e190a363660349d32d9e3faeb39733892d6e40287b6edcbf4996ba633a679051"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-brewery.pw.toml"
-hash = "7aba20615a32b489429c32685ae8fafc4109ce49409beade8590be4d71dd8ddf"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-farm-charm.pw.toml"
-hash = "317f1028474ac08827a62830a1b5d82569a6972278d919d3bdc1b7790d683341"
 metafile = true
